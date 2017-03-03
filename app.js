@@ -36,7 +36,7 @@ var topics=["kittens", "bigfoot", "Jane Austen", "sea turtles", "triathlon", "ow
       $("#itemGifs").empty(); 
       topic = $(this).attr("data-name"); 
 
-      var queryUrl="http://api.giphy.com/v1/gifs/search?q=" +
+      var queryUrl="https://api.giphy.com/v1/gifs/search?q=" +
         topic + "&api_key=dc6zaTOxFJmzC&limit=10&rating=pg-13";
 
         $.ajax({
